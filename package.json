@@ -1,10 +1,11 @@
 {
   "name": "yoher-simplest-logger",
-  "version": "0.0.3",
+  "version": "0.0.8",
   "description": "",
-  "main": "index.ts",
+  "main": "./dist/simpliest-logger.js",
+  "type": "module",
   "scripts": {
-    "build": "tsc"
+    "build": "rollup -c"
   },
   "keywords": [
     "simpliest-logger",
@@ -13,7 +14,12 @@
   "author": "Yoher Obando",
   "license": "MIT",
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "@rollup/plugin-typescript": "^12.1.2",
     "@types/node": "^22.10.5",
-    "typescript": "^5.7.2"
+    "rollup": "^4.29.1",
+    "typescript": "^5.7.2",
+    "tslib": "^2.8.1"
   }
 }
