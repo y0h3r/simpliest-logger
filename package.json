@@ -1,8 +1,9 @@
 {
   "name": "yoher-simplest-logger",
-  "version": "0.0.8",
+  "version": "0.0.10",
   "description": "",
-  "main": "./dist/simpliest-logger.js",
+  "main": "dist/simpliest-logger.js",
+  "types": "dist/simpliest-logger.d.ts",
   "type": "module",
   "scripts": {
     "build": "rollup -c"

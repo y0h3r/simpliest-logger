@@ -4,12 +4,20 @@ import typescript from '@rollup/plugin-typescript';
 
 export default {
   input: './index.ts',
-  output: {
-    file: 'dist/simpliest-logger.js',
-    format: 'cjs',
-    name: 'SimpliestLogger',
-    sourcemap: true,
-  },
+  output: [
+    {
+      file: 'dist/simpliest-logger.esm.js',
+      format: 'es',
+      name: 'SimpliestLogger',
+      sourcemap: true,
+    },
+    {
+      file: 'dist/simpliest-logger.cjs.js',
+      format: 'cjs',
+      name: 'SimpliestLogger',
+      sourcemap: true,
+    }
+  ],
   plugins: [
     resolve(),
     commonjs(),
