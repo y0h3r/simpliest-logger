@@ -1,0 +1,19 @@
+{
+  "name": "simplest-logger",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "simpliest-logger",
+    "logger"
+  ],
+  "author": "Yoher Obando",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "typescript": "^5.7.2"
+  }
+}
