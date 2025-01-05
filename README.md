@@ -21,9 +21,9 @@ A lightweight and extensible logger for Node.js with TypeScript support. Designe
 Install the package using npm or yarn:
 
 ```bash
-npm install simpliest-logger
+npm install yoher-simplest-logger
 # or
-yarn add simpliest-logger
+yarn add yoher-simplest-logger
 ```
 
 ---
