@@ -1,4 +1,4 @@
-import { LOG_LEVEL } from './constants';
+import { LOG_LEVEL } from './constants.js';
 import { MessageFormatter } from './utils/message-formatter';
 
 export interface LogOutput {
